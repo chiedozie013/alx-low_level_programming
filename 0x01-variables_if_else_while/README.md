@@ -26,3 +26,7 @@ All your code should be in the main function.
 (File 7-print_tebahpla.c) a program that prints the lowercase alphabet in reverse, followed by a new line. You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 
 (File 8-print_base16.c) a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+
+(File 9-print_comb.c) a program that prints all possible combinations of single-digit numbers.
+Numbers must be separated by ,, followed by a space
+Numbers should be printed in ascending order.
