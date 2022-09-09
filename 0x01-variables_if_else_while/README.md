@@ -11,3 +11,5 @@ if the last digit of n is less than 6 and not 0: the string and is less than 6 a
 followed by a new line
 
 (File 2-print_alphabet.c) a program that prints the alphabet in lowercase, followed by a new line.
+
+(File 3-print_alphabets.c) a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
