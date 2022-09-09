@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - assigns a randon number to the int n everytime it executes,
@@ -10,7 +11,7 @@ int main(void)
 {
 	int n;
 
-	Srand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
