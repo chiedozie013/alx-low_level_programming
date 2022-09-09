@@ -12,4 +12,6 @@ followed by a new line
 
 (File 2-print_alphabet.c) a program that prints the alphabet in lowercase, followed by a new line.
 
-(File 3-print_alphabets.c) a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+(File 3-print_alphabets.c) a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
+
+(File 4-print_alphabt.c) a program that prints the alphabet in lowercase, followed by a new line. Print all the letters except q and e.
