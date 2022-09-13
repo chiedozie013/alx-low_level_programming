@@ -13,3 +13,5 @@ The prototypes of all your functions and the prototype of the function _putchar 
 (File 5-sign.c) a function that prints the sign of a number. Prototype: int print_sign(int n); Returns 1 and prints + if n is greater than zero. Returns 0 and prints 0 if n is zero. Returns -1 and prints - if n is less than zero.
 
 (File 6-abs.c) a function that computes the absolute value of an integer. Prototype: int _abs(int);
+
+(File 7-print_last_digit.c) a function that prints the last digit of a number. Prototype: int print_last_digit(int); Returns the value of the last digit
