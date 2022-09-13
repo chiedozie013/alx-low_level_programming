@@ -6,7 +6,7 @@
  * 0 and prints 0 if n is zero
  */
 int print_sign(int n)
-{i
+{
 
 	if (n > 0)
 	{
