@@ -26,4 +26,10 @@ The prototypes of all your functions and the prototype of the function _putchar 
 Numbers must be separated by a comma, followed by a space
 Numbers should be printed in order
 The first printed number should be the number passed to your function
-The last printed number should be 98
+The last printed number should be 98.
+
+(File 100-times_table.c) a function that prints the n times table, starting with 0.
+
+Prototype: void print_times_table(int n);
+If n is greater than 15 or less than 0 the function should not print anything
+Format: see example
