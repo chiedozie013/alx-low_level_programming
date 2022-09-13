@@ -17,3 +17,5 @@ The prototypes of all your functions and the prototype of the function _putchar 
 (File 7-print_last_digit.c) a function that prints the last digit of a number. Prototype: int print_last_digit(int); Returns the value of the last digit.
 
 (File 8-24_hours.c) a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. Prototype: void jack_bauer(void);
+
+(File 9-times_table.c) a function that prints the 9 times table, starting with 0. Prototype: void times_table(void);
