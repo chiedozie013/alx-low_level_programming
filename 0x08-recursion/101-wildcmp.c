@@ -17,7 +17,7 @@ int wildcmp(char *s1, char *s2)
 	/**
 	 * this is going to be a sum of return values
 	 */
-	int sum 0;
+	int sum = 0;
 
 	/**
 	 * if we reach the end of s1 and the char in s2 is a *
@@ -60,14 +60,14 @@ int wildcmp(char *s1, char *s2)
 			return (1);
 		if (*s1 == *s2)
 			sum += wildcmp(s1 + 1, s2 + 1);
-		sum += bandbersnatch(s1 + 1, s2);
+		sum += bandersnatch(s1 + 1, s2);
 		return (!!sum);
 	}
 	return (0);
 }
 
 /**
- * bandsnatch - checks recursively for all the paths when the
+ * bandersnatch - checks recursively for all the paths when the
  * characters are equal
  * @s1: first string
  * @s2: second string
@@ -85,7 +85,7 @@ int bandersnatch(char *s1, char *s2)
 		return (0);
 	if (*s1 == *s2)
 		return (wildcmp(s1, s2));
-	return (bandbersnatch(s1 + 1, s2));
+	return (bandersnatch(s1 + 1, s2));
 }
 
 /**
