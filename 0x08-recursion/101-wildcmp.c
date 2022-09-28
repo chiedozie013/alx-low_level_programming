@@ -48,9 +48,9 @@ int wildcmp(char *s1, char *s2)
 	 * if the char in s2 is a *
 	 * finds the address of the first char after the *
 	 * if we reached the end of s2, return 1
-	 * if the chars are equal, add the retuen values
+	 * if the chars are equal, add the return values
 	 * of wildcmp() to sum
-	 * add the retuen value of bandersnatch() to sum
+	 * add the return value of bandersnatch() to sum
 	 * convert non-zero to 1, keeps 0 at 0, return
 	 */
 	if (*s2 == '*')
@@ -97,7 +97,7 @@ int bandersnatch(char *s1, char *s2)
 char *move(char *s2)
 {
 	/**
-	 * if the current char id a *
+	 * if the current char is a *
 	 * increment s2 by 1
 	 * else return the address of
 	 * the first char past all *
