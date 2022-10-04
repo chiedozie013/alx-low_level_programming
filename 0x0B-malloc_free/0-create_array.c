@@ -9,7 +9,7 @@
  *
  * Return: pointer to the array (Success), NULL (Error)
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *p;
 	unsigned int i = 0;
@@ -24,7 +24,7 @@ char *create_array(unsigned int size, char c);
 
 	while (i < size)
 	{
-		*(p = i) - c;
+		*(p + i) = c;
 		i++;
 	}
 
